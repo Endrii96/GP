@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('../img/AB.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; 
+    padding: 0; 
+    background-color: grey; 
+}
+
+.container {
+    max-width: 1200px; 
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#a {
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    transition: border-color 1s ease;
+}
+
+#a:hover {
+    border-color: orangered;
+}
+
+#b {
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    transition: border-color 1s ease;
+}
+
+#b:hover {
+    border-color: cyan;
+}
+h2 {
+    text-align: center;
+    -webkit-text-stroke: 0.5px white;
+    text-stroke: 0.5px white;
+}
+
+img {
+    max-width: 200px; 
+    height: auto;
+}
+
+
+img {
+    background-color: #ccc;
+    padding: 50px 0;
+    opacity: 0.9;
+}
+
+img {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    opacity: 1;
+}
+
+img {
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+img:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+#cart-image-container img {
+    max-width: 300px; 
+    margin-top: 20px; 
+}
+
+
+#checkout-btn {
+    display: block; 
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: #333; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+#checkout-btn:hover {
+    background-color: #555; 
+}
